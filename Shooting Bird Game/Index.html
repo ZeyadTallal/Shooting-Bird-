@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- <p>بسم الله الرحمن الرحيم</p> -->
+    <link rel="stylesheet" href="Indexpagestyles.css">
+</head>
+<body>
+    <div class="div1style">
+        <form>
+                <label class="label">Enter Your Name</label><br>
+                <input type="text" class="textboxstyle" > <br> <span class="spanstyle">Please Enter Your Name</span> <br> <span class="spanstyle">Please Enter Letters Only</span>
+                <br>
+                <br>
+                <label class="label">Select Game Level</label><br> 
+                <input list="Gamelevel" class="dropdownliststyle"/> <br> <span class="spanstyle">Please Select Gamelevel</span> <br> <span class="spanstyle">Please Enter Letters Only</span>
+                <datalist id="Gamelevel">
+                <option value="Easy">
+                <option value="Medium">
+                <option value="Hard">
+                </datalist>
+                <br>
+                <br>
+                <input type="button" value="GO" class="Gobuttom"> <br> <span class="spanstyle">Please Fill Data</span> 
+        </form>
+        <p class="label">Last User Name is </p> <span class="n"></span>
+        <p class="label">Last Score is </p>     <span class="s"></span>
+        <p class="label">Highest Score is </p>  <span class="HS"></span>
+        <p class="label">Last Signin </p>       <span class="t" ></span>
+    </div>
+
+    <div class="div2style">
+        <h1 class="title">Game Bird Shooting Points</h1>
+        <table class="tablestle">
+            <tr>
+                <td>
+                    <img src="bird3.gif" class="images">
+                </td>
+
+                <td>
+                    <p class="text1"> +5 Points </p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <img src="bird2.gif" class="images">
+                </td>
+
+                <td>
+                    <p class="text2"> +10 Points </p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <img src="bird1.gif" class="images">
+                </td>
+
+                <td>
+                    <p class="text3"> -10 Points </p>
+                </td>
+            </tr>
+            
+        </table>
+
+    </div>
+
+    <script src="indexpageFunctions.js"></script>
+    <script src="indexpage.js"></script>
+</body>
+</html>

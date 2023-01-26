@@ -1,0 +1,156 @@
+body
+{
+    background-image: url("finalBG.jpeg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* height: 90vh; */
+}
+
+.label
+{
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size:large;
+}
+
+.div1style
+{
+    background-color: rgba(173, 157, 157, 0.5);
+    height:fit-content; 
+    width: fit-content; 
+    position: absolute; 
+    left: 25%; 
+    top: 4%;
+    padding: 40px 60px; 
+    text-align: center; 
+
+    border-color: gray; 
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 10px; 
+}
+
+.textboxstyle
+{
+    border-color: gray; 
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 10px; 
+}
+
+.dropdownliststyle
+{
+    border-color: gray; 
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 10px; 
+}
+
+.Gobuttom
+{
+    height: 30px;
+    width: 100px;
+    border-color:green; 
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 10px; 
+    background-color: greenyellow;
+    font-weight: bolder;
+    color: red;
+}
+.spanstyle 
+{
+    display: none;
+    padding: 0%;
+}
+.span
+{
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size:medium;
+}
+
+.div2style
+{
+    background-color: rgba(173, 157, 157, 0.5); 
+    height:fit-content; 
+    width: fit-content; 
+    position: absolute; 
+    left: 55%; 
+    top: 4%;
+    padding: 10px 20px; 
+    text-align: center; 
+
+    border-color: gray; 
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 10px; 
+}
+.tablestle
+{
+    line-height: 107px;
+}
+.title
+{
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size:22px;
+}
+
+.images
+{
+    width: 50px;
+    height: 50px;
+}
+
+.text1
+{
+    color: navy;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size:xx-large;
+}
+
+.text2
+{
+    color: orange;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size:xx-large;
+}
+
+.text3
+{
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size:xx-large;
+}
+.s
+{
+    text-align: center;
+    color: aqua;
+    font-size: medium;
+}
+.n
+{
+    text-align: center;
+    color: aqua;
+    font-size: medium;
+}
+.t
+{
+    text-align: center;
+    color: aqua;
+    font-size: medium;
+}
+.HS
+{
+    text-align: center;
+    color: aqua;
+    font-size: medium;
+}

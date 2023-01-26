@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="gamepagestyle.css">
+</head>
+<body>
+    <div class="welcomedivstyle">
+
+        <img src="2139.png" class="i_image">
+        <p class="wlcometext">Welcome</p> <span class="txtboxstyle span"></span>
+        <p class="wlcometext">last Score is </p> <span class="s3"></span>
+        <p class="text">We hope you enjoy our game</p>
+        <p class="text">To win, you should kill 25(black and wight)birds in a specfic time</p>
+        <form ><input type="button" value="Start Game" class="startbuttom"></form>
+
+    </div>
+
+    <div class="titlediv1"> Welcome : <span id="w"></span> </div>
+
+    <div class="titlediv2"> Score : <span id="s"></span></div>
+    
+    <div class="titlediv3">Time Limit : <span id="t"></span></div>
+
+    <div class="titlediv4">Birds Killed : <span id="k"></span></div>
+
+    <div class="titlediv5">Heighest Score : <span id="high"></span></div>
+
+    <div id="i-c" class="abs">
+
+    </div>
+
+    <div class="losedivstyle hidden">
+
+        <img src="sadbird.jfif" class="i_image">
+        <p class="wlcometext">You Lose</p> <span class="txtboxstyle span"></span>
+
+         <span class="n1"></span>
+
+        <p class="wlcometext">Your Score is </p> </span>
+
+         <span class="s1"></span>
+
+        <p class="text">We hope you enjoy our game</p>
+        <p class="text">To win, you should kill 25(black and wight)birds in a specfic time</p>
+        <form ><input type="button" value="Try Again" class="tryagainbuttom"></form>
+        <form ><input type="button" value="X" class="Xbuttom"></form>
+
+    </div>
+
+    
+    <div class="windivstyle hidden">
+
+        <img src="happybird.jpg" class="i_image">
+        <p class="wlcometext">You Win</p> <span class="txtboxstyle" class="span"> </span><span class="n2"></span>
+        <p class="wlcometext">last Score is </p> </span> <span class="s2"></span>
+        <p class="text">We hope you enjoy our game</p> 
+        <form ><input type="button" value="Try Again" class="tryagainbuttom"></form>
+        <form ><input type="button" value="X" class="Xbuttom2"></form>
+        
+
+    </div>
+
+    <audio id="fire">
+        <source src= "shotgun-firing-4-6746.mp3">
+    </audio>
+
+    <audio id="bom">
+        <source src= "hq-explosion-6288.mp3">
+    </audio>
+
+
+        <script src="gamepageFunctions.js"></script>
+        <script src="gamepageScript.js"></script>
+        <!-- <script src="gamepage.js"></script>  -->
+        <!-- <script src="GAMEPAGE1.js"></script> -->
+        <!-- <script src="gamepage2.js"></script> -->
+        <!-- <script src="birdgamepage.js"></script> -->
+
+</body>
+</html>
